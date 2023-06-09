@@ -82,6 +82,11 @@ body {
   cursor: pointer;
 }
 
+.submit-button:hover {
+  background-image: linear-gradient(to right, hsl(348, 98%, 66%), hsl(4, 100%, 67%));
+  border: 0;
+}
+
 .illustration-signup {
   height: 500px;
   margin-left: 10px;
