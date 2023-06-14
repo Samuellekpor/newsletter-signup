@@ -116,6 +116,18 @@ input {
   display: none;
 }
 
+.error-message {
+  display: none;
+  color: hsl(0, 100%, 50%);
+  font-weight: lighter;
+  float: right;
+}
+
+.red {
+  color: hsl(0, 100%, 50%);
+  border: 1px solid hsl(0, 100%, 50%);
+}
+
 @media( max-width: 768px) {
   .container, .success-page {
     padding: 0;
