@@ -24,7 +24,6 @@ body {
   margin: 150px auto;
   border-radius: 5%;
   padding: 20px;
-  display: none;
 }
 
 .signup {
@@ -94,7 +93,7 @@ input {
 }
 
 .success-page {
-  display: block;
+  display: none;
   max-width: 355px;
   padding: 60px;
   color: hsl(234, 29%, 20%);
@@ -107,6 +106,33 @@ input {
 .dismiss-button {
   width: 100%;
   margin-top: 20px;
+}
+
+.the-email {
+  font-weight: bold;
+}
+
+.illustration-signup-mobile {
+  display: none;
+}
+
+@media( max-width: 768px) {
+  .container, .success-page {
+    padding: 0;
+    border-radius: 0%;
+  }
+  .signup {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .illustration-signup {
+    display: none;
+  }
+
+  .illustration-signup-mobile {
+    display: block;
+  }
 }
 
 .attribution {
