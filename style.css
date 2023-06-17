@@ -125,7 +125,8 @@ input {
 
 .red {
   color: hsl(0, 100%, 50%);
-  border: 1px solid hsl(0, 100%, 50%);
+  outline: 1px solid hsl(0, 100%, 50%);
+  background-color: rgba(253, 42, 42, 0.157);
 }
 
 @media( max-width: 768px) {
