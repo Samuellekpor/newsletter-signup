@@ -1,6 +1,7 @@
 const container = document.querySelector(".container");
 const success_page = document.querySelector(".success-page");
 const submit_btn = document.querySelector(".submit-button");
+const dismiss_btn = document.querySelector(".dismiss-button");
 const error_message = document.querySelector(".error-message");
 const emailInput = document.getElementById("email");
 const emailField = document.querySelector(".the-email");
@@ -26,4 +27,10 @@ submit_btn.addEventListener('click', (e) => {
     emailInput.className = 'red';
     error_message.style.display = "block";
   }
+})
+
+dismiss_btn.addEventListener('click', () => {
+  container.style.display = 'flex';
+  success_page.style.display = 'none';
+  emailInput.value = '';
 })
