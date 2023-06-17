@@ -129,11 +129,38 @@ input {
   background-color: rgba(253, 42, 42, 0.157);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media( max-width: 768px) {
+
+  body {
+    background-color: white;
+  }
+
   .container, .success-page {
     padding: 0;
     border-radius: 0%;
   }
+
+  .success-page {
+    background-color: hsl(0, 0%, 100%);
+    height: 600px;
+    max-width: 425px;
+    padding: 40px;
+  }
+
+  .dismiss-button {
+    margin-top: 225px;
+  }
+
   .signup {
     display: flex;
     flex-direction: column-reverse;
@@ -146,13 +173,10 @@ input {
   .illustration-signup-mobile {
     display: block;
   }
-}
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+  }
 }
