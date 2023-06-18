@@ -80,11 +80,15 @@ input {
   background-color: hsl(234, 29%, 20%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
 }
 
 .submit-button:hover, .dismiss-button:hover {
-  background-image: linear-gradient(to right, hsl(348, 98%, 66%), hsl(4, 100%, 67%));
+  background-image: linear-gradient(to right, hsl(348, 98%, 66%), hsl(4, 100%, 62%));
   border: 1px solid hsl(0, 0%, 100%);
+  transition-duration: 1s;
+  transition-delay: 0.5s;
 }
 
 .illustration-signup {

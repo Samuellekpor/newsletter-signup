@@ -33,4 +33,6 @@ dismiss_btn.addEventListener('click', () => {
   container.style.display = 'flex';
   success_page.style.display = 'none';
   emailInput.value = '';
+  emailInput.classList.remove('red');
+  error_message.style.display = "none";
 })
