@@ -15,7 +15,7 @@
 
 body {
   background-color: hsl(234, 29%, 20%);
-  font-family: 'Roboto regular';
+  font-family: 'Roboto regular', sans-serif;
 }
 
 .container, .success-page {
